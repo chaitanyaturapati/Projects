@@ -15,7 +15,7 @@ elif c=="/":
     else :
        print(a/b)
 else:
-    print("Invalid operator s")
+    print("Invalid operator")
 
 
 
