@@ -5,9 +5,10 @@
 #print(sum(b))
 
 def maxi(x):
-    return x%2!=0
-a=[1,2,3,4,5,5,67]
+    return x.startswith('c')
+a=['cat','call','bat','commit']
+a.append('cricket')
 b=filter(maxi,a)
-print(list(b))
+print(tuple(b))
 
 
